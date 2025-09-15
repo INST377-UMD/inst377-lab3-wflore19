@@ -1,0 +1,64 @@
+body {
+	font-family: "Times New Roman", Times, serif;
+}
+
+.header,
+.footer {
+	background-color: lightblue;
+	text-align: center;
+	padding: 20px;
+	margin: 10px 0;
+}
+
+.container {
+	display: flex;
+	justify-content: space-between;
+}
+
+.content,
+.sidebar {
+	padding: 20px;
+	margin: 10px 0;
+}
+
+.content {
+	width: 60%;
+	background-color: lightyellow;
+}
+
+.sidebar {
+	width: 30%;
+	background-color: lightgray;
+}
+
+.sidebar:hover {
+	background-color: lightcoral;
+}
+
+.name:focus {
+	width: 200px;
+}
+
+.nav {
+	background-color: lightgreen;
+	padding: 10px;
+}
+
+.nav ul {
+	list-style-type: none;
+	display: flex;
+}
+
+.nav ul li {
+	margin-right: 15px;
+}
+
+.nav ul li a {
+	text-decoration: none;
+	color: black;
+}
+
+.nav ul li a:hover {
+	text-decoration: underline;
+	color: lightslategray;
+}
